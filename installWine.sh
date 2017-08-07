@@ -1,3 +1,4 @@
+#!/bin/bash
 yes Y | sudo apt-get update
 echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
 yes Y | udo apt-get install ttf-mscorefonts-installer
